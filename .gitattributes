@@ -1,0 +1,8 @@
+# See https://github.com/github/linguist
+# Default behavior
+dist/* linguist-vendored
+*.json linguist-detectable=false
+public/**/*.html linguist-vendored
+*.tsx linguist-detectable
+* text=auto eol=lf
+*.jpeg binary
